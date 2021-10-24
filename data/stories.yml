@@ -1,0 +1,140 @@
+version: "2.0"
+stories:
+- story: greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: ask_exist
+  steps:
+  - intent: exist
+  - action: utter_exist1
+  - action: utter_exist2
+- story: ask_descrip
+  steps:
+  - intent: descrip
+  - action: utter_reference
+  - intent: ref_produit
+  - action: action_product_details
+- story: livraison
+  steps:
+  - intent: ask_livraison
+  - action: utter_livraison
+- story: retour
+  steps:
+  - intent: ask_retour
+  - action: utter_retour
+  - intent: code_cmd
+  - action: utter_conf_retour
+- story: presentation
+  steps:
+  - intent: ask_general
+  - action: utter_general
+- story: place
+  steps:
+  - intent: ask_local
+  - action: utter_local
+- story: incompréhensif
+  steps:
+  - intent: incomp
+  - action: utter_incomp
+- story: identite
+  steps:
+  - intent: ask_id
+  - action: utter_id
+- story: stop
+  steps:
+  - intent: fin
+  - action: utter_fin
+- story: langue
+  steps:
+  - intent: lang
+  - action: utter_lang
+- story: service_client
+  steps:
+  - intent: service_client
+  - action: utter_service_client
+- story: Story from Conversation ID 791e45174a2e428fbaebfd440f74bb9f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: exist
+    entities:
+    - produit: des valises
+  - slot_was_set:
+    - produit: des valises
+  - action: utter_exist1
+  - action: utter_exist2
+  - intent: descrip
+    entities:
+    - produit: el valise
+  - slot_was_set:
+    - produit: el valise
+  - action: utter_reference
+  - intent: ref_produit
+    entities:
+    - sku: FLH18
+  - slot_was_set:
+    - sku: FLH18
+  - action: action_product_details
+  - intent: command
+  - action: form_command
+  - active_loop: form_command
+  - slot_was_set:
+    - requested_slot: adres
+  - intent: adresse
+    entities:
+    - adres: 1 juin hay taamir ben arous
+  - slot_was_set:
+    - adres: 1 juin hay taamir ben arous
+  - action: form_command
+  - slot_was_set:
+    - adres: 1 juin hay taamir ben arous
+  - slot_was_set:
+    - requested_slot: name
+  - intent: nom_client
+    entities:
+    - name: sihem kammoun
+  - slot_was_set:
+    - name: sihem kammoun
+  - action: form_command
+  - slot_was_set:
+    - name: sihem kammoun
+  - slot_was_set:
+    - requested_slot: sku
+  - intent: ref_produit
+    entities:
+    - sku: FLH18
+  - slot_was_set:
+    - sku: FLH18
+  - action: form_command
+  - slot_was_set:
+    - sku: FLH18
+  - slot_was_set:
+    - requested_slot: tel
+  - intent: tel
+    entities:
+    - tel: '26879453'
+  - slot_was_set:
+    - tel: '26879453'
+  - action: form_command
+  - slot_was_set:
+    - tel: '26879453'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: store_data_of_command
+  - action: utter_fin
+  - intent: ask_livraison
+  - action: utter_livraison
+  - intent: ask_local
+  - action: utter_local
+  - intent: lang
+  - action: utter_lang
+  - intent: fin
+  - action: utter_fin
+  - intent: ask_id
+  - action: utter_id
+  - intent: incomp
+  - action: utter_incomp
+  - intent: service_client
+  - action: utter_service_client

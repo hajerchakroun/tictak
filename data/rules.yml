@@ -1,0 +1,25 @@
+rules:
+ - rule: activate form
+   steps:
+   - intent: command
+   - action: form_command
+   - active_loop: form_command
+ - rule: Submit form
+   condition:
+    # Condition that form is active.
+    - active_loop: form_command
+   steps:
+    # Form is deactivated
+    - action: form_command
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null
+    # The actions we want to run when the form is submitted.
+    - action: store_data_of_command #enregistrer dans mongo
+    - action: utter_fin
+# #  - rule: ask_descrip
+# #    steps:
+# #    #- intent: descrip
+# #   # - action: utter_reference
+# #    - intent: ref_produit
+# #    - action: action_product_details

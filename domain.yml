@@ -1,0 +1,177 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- exist:
+    use_entities: true
+- fin:
+    use_entities: true
+- descrip:
+    use_entities: true
+- inform:
+    use_entities: true
+- subscribe:
+    use_entities: true
+- ref_produit:
+    use_entities: true
+- command:
+    use_entities: true
+- nom_client:
+    use_entities: true
+- adresse:
+    use_entities: true
+- tel:
+    use_entities: true
+- ask_livraison:
+    use_entities: true
+- ask_retour:
+    use_entities: true
+- code_cmd:
+    use_entities: true
+- ask_general:
+    use_entities: true
+- ask_local:
+    use_entities: true
+- incomp:
+    use_entities: true
+- ask_id:
+    use_entities: true
+- lang:
+    use_entities: true
+- dispo:
+    use_entities: true
+- service_client:
+    use_entities: true
+entities:
+- produit
+- sku
+- tel
+- cmd
+- name
+- adres
+slots:
+  sku:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  produit:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  tel:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  adres:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: 3asslema, ena TICTAK chatbot wamia kifech nijim n3awnk w akeka tiktac t7ot 9adhitk fi sac ! ?
+  - text: mar7be bik, kifech nijim n3awnek ?
+  utter_exist1:
+  - text: 3ana plusieurs articles 3ala site Wamia https://www.wamia.tn
+  utter_exist2:
+  - text: L'article ili t7eb 3lih yejem ykoun we7ed min les produits ili fi site, zid a3ml nadhra w ken t7eb t3adi commande 9oli n3awnk w mar7bé bik chère client
+  utter_fin:
+  - text: Mar7be bik chère client
+  utter_ref_dispo:
+  - text: "L'article de SKU:{product_sku} son disponibilité est {total_qty_available}, c'est un {product_name} et son prix est: {product_price}"
+  utter_reference:
+  - text: A3tini référence el produit ili t7eb 3lih w ena nchouflk la disponibilité et la description complète avec prix
+  utter_cmd:
+  - text: Chère client, sajalna les coordonnées mte3k 3ana w dans quelques heures ykalmk le service client Wamia pour la confirmation et merci pour votre confiance
+  utter_livraison:
+  - text: Ahna na3mlo livraison sur toute la Tunisie w nwassloulek l beb el dar fi akall men 72h avec frais de livraison 6 dt w ki tfout el commande 100 dt la livraison est gratuite
+  utter_retour:
+  - text: Service après vente wamia yejmou y3awnouk juste a3tini code el commande
+  utter_conf_retour:
+  - text: C’est noté, w ghodwa nchlh kalem service après vente Wamia 31 36 04 01
+  utter_general:
+  - text: Wamia heya marketplace tounseya ili tijim techri menha w tbi3 feha b ashel el touro9 w twafarlk service rapide et de bonne qualité w tal9a feha plusieurs articles 3al site https://www.wamia.tn
+  utter_local:
+  - text: 3ana 3 showroom ma7loulin 7/7j de 8h à 19h Gabes route tunis km 1 ,600 Gabess Derrière Mosquée el Rahmen Sahloul 2, Sousse Rond point Rouabi Kalaa sghira, Sousse Tejmou tcontactiwna sur 36 011 300 wala par email sur contact@wamia.tn
+  utter_incomp:
+  - buttons:
+    - payload: n7eb na7ki m3a service client (humain)!!
+      title: Service Client
+    text: Sama7ni mafhemtkch !!! ena chatbot w 9a3ed net3alem bil intelligence artificielle, ken tijim tzid twadha7li sinon n3adik lil service clientèle wamia y3awnouk akther
+  utter_service_client:
+  - text: Un tout petit temps w yjewbouk service clientèle Wamia et merci pour votre compréhension <3
+  utter_id:
+  - text: TICTAK mahouch ensen ama yijim yjewb 3al as2la ili yjiwah min 3and les clients Wamia w ken ma ya3rfch y7awel el discussion lil service client
+  utter_lang:
+  - text: Ena Tictak nejjim na7ki m3ak b tounsi, bil 3arbi w 7ata bil souri
+  utter_ask_sku:
+  - text: ta3tini référence el produit ili t7eb t3addi fih commande svp !!
+  utter_ask_name:
+  - text: El commande b esm chkoun ?
+  utter_ask_adres:
+  - text: Ta3tini l’adresse win t7eb tjik el commande !!?
+  utter_ask_tel:
+  - text: Numéro de tél svp
+actions:
+- utter_greet
+- utter_exist1
+- utter_exist2
+- utter_fin
+- utter_ref
+- utter_reference
+- utter_ref_dispo
+- utter_ask_sku
+- utter_ask_name
+- utter_ask_adres
+- utter_ask_tel
+- utter_cmd
+- utter_livraison
+- utter_retour
+- utter_conf_retour
+- utter_general
+- utter_id
+- utter_local
+- utter_incomp
+- utter_service_client
+- utter_lang
+- action_product_details
+- action_ask_sku
+- action_ask_name
+- action_ask_adres
+- action_ask_tel
+- validate_form_command
+- store_data_of_command
+forms:
+  form_command:
+    required_slots:
+      adres:
+      - entity: adres
+        type: from_entity
+      name:
+      - entity: name
+        type: from_entity
+      sku:
+      - entity: sku
+        type: from_entity
+      tel:
+      - entity: tel
+        type: from_entity
+e2e_actions: []

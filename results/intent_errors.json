@@ -1,0 +1,674 @@
+[
+  {
+    "text": "bjr",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.4925299882888794
+    }
+  },
+  {
+    "text": "مرحبا",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.8120541572570801
+    }
+  },
+  {
+    "text": "mrigl",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6657620668411255
+    }
+  },
+  {
+    "text": "ya3tikom el sa7a",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.6608213186264038
+    }
+  },
+  {
+    "text": "Mazel mawjoud meno hedha ?",
+    "intent": "dispo",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.9477663040161133
+    }
+  },
+  {
+    "text": "sac à dosDspo",
+    "intent": "dispo",
+    "intent_prediction": {
+      "name": "exist",
+      "confidence": 0.5181445479393005
+    }
+  },
+  {
+    "text": "طولها",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.44646844267845154
+    }
+  },
+  {
+    "text": "نحب نشري",
+    "intent": "command",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.8163251280784607
+    }
+  },
+  {
+    "text": "نرجعها",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.19166316092014313
+    }
+  },
+  {
+    "text": "لقيتها مكسرة",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.255944162607193
+    }
+  },
+  {
+    "text": "شنوا تبيعو؟",
+    "intent": "ask_general",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.5075474977493286
+    }
+  },
+  {
+    "text": "لعنة",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "exist",
+      "confidence": 0.31654033064842224
+    }
+  },
+  {
+    "text": "Go to hell!",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9908171892166138
+    }
+  },
+  {
+    "text": "Slm, bech nes2el 3al krateb mta3 el makteb chnouma les modèles ili 3andkom",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.8604602217674255
+    }
+  },
+  {
+    "text": "ايا باهي",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.5050570964813232
+    }
+  },
+  {
+    "text": "يعطيكم الصحة",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "ask_local",
+      "confidence": 0.24795877933502197
+    }
+  },
+  {
+    "text": "maryoulمازال منه",
+    "intent": "dispo",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.9337065815925598
+    }
+  },
+  {
+    "text": "بقداش",
+    "intent": "prix",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2778145968914032
+    }
+  },
+  {
+    "text": "بقداه",
+    "intent": "prix",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49458637833595276
+    }
+  },
+  {
+    "text": "n7eb nes2el 3al  soum el produit hedha",
+    "intent": "prix",
+    "intent_prediction": {
+      "name": "ask_local",
+      "confidence": 0.2559933662414551
+    }
+  },
+  {
+    "text": "Kadech kborha",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.9762884974479675
+    }
+  },
+  {
+    "text": "Gadeh min mitro feha",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.6056582927703857
+    }
+  },
+  {
+    "text": "Je veux acheter",
+    "intent": "command",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.473143070936203
+    }
+  },
+  {
+    "text": "Twasslou à domicile ?",
+    "intent": "ask_livraison",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.231567844748497
+    }
+  },
+  {
+    "text": "Showroom",
+    "intent": "ask_local",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.6705071330070496
+    }
+  },
+  {
+    "text": "Jdkjsnclncsd",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4592599868774414
+    }
+  },
+  {
+    "text": "weld el kahba",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.7194821238517761
+    }
+  },
+  {
+    "text": "Hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.7649406790733337
+    }
+  },
+  {
+    "text": "Bech nes2l 3la les parfums",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.7224343419075012
+    }
+  },
+  {
+    "text": "Fama des ecouteurs",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.9920394420623779
+    }
+  },
+  {
+    "text": "d'accord",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.5603572726249695
+    }
+  },
+  {
+    "text": "مريقل",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8378728628158569
+    }
+  },
+  {
+    "text": "el ecran solaire mezel 3andkom mino",
+    "intent": "dispo",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.19529032707214355
+    }
+  },
+  {
+    "text": "b9adech el produit hedha",
+    "intent": "prix",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.9967088103294373
+    }
+  },
+  {
+    "text": "عرضها",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "ask_local",
+      "confidence": 0.3895639479160309
+    }
+  },
+  {
+    "text": "Tlevriw l mednin",
+    "intent": "ask_livraison",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.3136002719402313
+    }
+  },
+  {
+    "text": "توصلو للدار",
+    "intent": "ask_livraison",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.19810353219509125
+    }
+  },
+  {
+    "text": "N7eb Nraj3 el produit",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.35336169600486755
+    }
+  },
+  {
+    "text": "ما تخدمش",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7183265089988708
+    }
+  },
+  {
+    "text": "Ech tbi3o ?",
+    "intent": "ask_general",
+    "intent_prediction": {
+      "name": "exist",
+      "confidence": 0.6463828086853027
+    }
+  },
+  {
+    "text": "Win el boutique mte3kom",
+    "intent": "ask_local",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.3853590488433838
+    }
+  },
+  {
+    "text": "sa5ta",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7710341811180115
+    }
+  },
+  {
+    "text": "merde",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.5284207463264465
+    }
+  },
+  {
+    "text": "yè 5ra",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.5308844447135925
+    }
+  },
+  {
+    "text": "الخراء",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8296091556549072
+    }
+  },
+  {
+    "text": "Hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.7971634268760681
+    }
+  },
+  {
+    "text": "bnj",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.5180895328521729
+    }
+  },
+  {
+    "text": "ahla",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.7268439531326294
+    }
+  },
+  {
+    "text": "اهلا",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.41652798652648926
+    }
+  },
+  {
+    "text": "عندكم تلفون",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "ask_local",
+      "confidence": 0.4620814025402069
+    }
+  },
+  {
+    "text": "تبيعو روبو كوجينة",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "ask_general",
+      "confidence": 0.9652259349822998
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.9831064343452454
+    }
+  },
+  {
+    "text": "merci beaucoup",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.6859707236289978
+    }
+  },
+  {
+    "text": "b9adech el produit hedha",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.9998541474342346
+    }
+  },
+  {
+    "text": "9adech min loun fih",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.5358244776725769
+    }
+  },
+  {
+    "text": "Fama el motif hedhi ?",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.4274362027645111
+    }
+  },
+  {
+    "text": "عديلي كوموند في هذا",
+    "intent": "command",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.42153188586235046
+    }
+  },
+  {
+    "text": "Kadech el frais de livraison ?",
+    "intent": "ask_livraison",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.7445644736289978
+    }
+  },
+  {
+    "text": "قداش حق التوصيل",
+    "intent": "ask_livraison",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.9159152507781982
+    }
+  },
+  {
+    "text": "Nejem nbadl b7aja o5ra",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.31969156861305237
+    }
+  },
+  {
+    "text": "chneya wamia",
+    "intent": "ask_general",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.5098156332969666
+    }
+  },
+  {
+    "text": "وين بلاصتكم؟",
+    "intent": "ask_local",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3341120183467865
+    }
+  },
+  {
+    "text": "كس أمك",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5693461298942566
+    }
+  },
+  {
+    "text": "ta7chi fih!",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.5140175223350525
+    }
+  },
+  {
+    "text": "slm !",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.4425278902053833
+    }
+  },
+  {
+    "text": "Nal9achi maquillages",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "ask_retour",
+      "confidence": 0.6236417293548584
+    }
+  },
+  {
+    "text": "(produit)[لعب صغار]فما",
+    "intent": "exist",
+    "intent_prediction": {
+      "name": "descrip",
+      "confidence": 0.33401942253112793
+    }
+  },
+  {
+    "text": "mer6",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.8985653519630432
+    }
+  },
+  {
+    "text": "très bien",
+    "intent": "fin",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.34489908814430237
+    }
+  },
+  {
+    "text": "telfounمزال موجود",
+    "intent": "dispo",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.2667989432811737
+    }
+  },
+  {
+    "text": "السوم",
+    "intent": "prix",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6750293970108032
+    }
+  },
+  {
+    "text": "Gdech 3ordhha",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.9911231994628906
+    }
+  },
+  {
+    "text": "Lou7 w plastique ?",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "ask_local",
+      "confidence": 0.8247390389442444
+    }
+  },
+  {
+    "text": "قداش كبرها ؟",
+    "intent": "descrip",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.6589152812957764
+    }
+  },
+  {
+    "text": "9adech 7a9 el tawssil",
+    "intent": "ask_livraison",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.8426119089126587
+    }
+  },
+  {
+    "text": "el talvzaMa te5demch",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "incomp",
+      "confidence": 0.43749135732650757
+    }
+  },
+  {
+    "text": "نحب نبدلها",
+    "intent": "ask_retour",
+    "intent_prediction": {
+      "name": "command",
+      "confidence": 0.9452154636383057
+    }
+  },
+  {
+    "text": "Ch3andkom",
+    "intent": "ask_general",
+    "intent_prediction": {
+      "name": "prix",
+      "confidence": 0.390252947807312
+    }
+  },
+  {
+    "text": "عندكم صالة عرض؟",
+    "intent": "ask_local",
+    "intent_prediction": {
+      "name": "exist",
+      "confidence": 0.8672307729721069
+    }
+  },
+  {
+    "text": "abruti",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.4527074992656708
+    }
+  },
+  {
+    "text": "sében",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5291538834571838
+    }
+  },
+  {
+    "text": "damn",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "fin",
+      "confidence": 0.2691926658153534
+    }
+  },
+  {
+    "text": "3asba",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5982109904289246
+    }
+  },
+  {
+    "text": "shit\t",
+    "intent": "incomp",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3521308898925781
+    }
+  }
+]

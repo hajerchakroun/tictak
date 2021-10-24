@@ -1,0 +1,15 @@
+forms:
+  form_command:
+    required_slots:
+      sku:
+      - type: from_entity
+        entity: sku
+      name:
+      - type: from_entity
+        entity: name
+      adres:
+      - type: from_entity
+        entity: adres
+      tel:
+      - type: from_entity
+        entity: tel

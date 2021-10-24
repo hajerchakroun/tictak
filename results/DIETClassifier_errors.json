@@ -1,0 +1,474 @@
+[
+  {
+    "text": "Nal9a 3andkom des sac à dos",
+    "entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "value": "des sac à dos",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.5403081774711609,
+        "value": "des",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tbi3ou des valises",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "value": "des valises",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 7,
+        "end": 18,
+        "confidence_entity": 0.6416483475758737,
+        "value": "des valises",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "produit",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9675729870796204,
+        "value": "des",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "نلقى لبسة",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "لبسة",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sac à dosDspo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "sac à dos",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "el veste L9it feha takti3a sghira",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "el veste",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7400656342506409,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "el robe Nal9a feha tache safra",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "el robe",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.6707509160041809,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Slm, bech nes2el 3al krateb mta3 el makteb chnouma les modèles ili 3andkom",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "krateb",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 33,
+        "end": 35,
+        "confidence_entity": 0.8576673865318298,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "produit",
+        "start": 51,
+        "end": 54,
+        "confidence_entity": 0.9958731532096863,
+        "value": "les",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "produit",
+        "start": 55,
+        "end": 62,
+        "confidence_entity": 0.9101702570915222,
+        "value": "modèles",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "les tentesdispo ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "les tentes",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8888119459152222,
+        "value": "les",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maryoulمازال منه",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "maryoul",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "fama desdes chaussures w b9adech",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "des",
+        "entity": "produit"
+      },
+      {
+        "start": 8,
+        "end": 22,
+        "value": "des chaussures",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.531826191171235,
+        "value": "desdes",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "produit",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9968429803848267,
+        "value": "desdes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tawla Feha taksira 3la jnab",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "tawla",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mréya Ki 7alitha nal9aha m5abcha",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "mréya",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bech nes2l 3la les parfums",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "les parfums",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Fama des ecouteurs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "value": "des ecouteurs",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.7492573261260986,
+        "value": "des",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "el ecran solaire mezel 3andkom mino",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "el ecran solaire",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7107086777687073,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "N7eb Nraj3 el produit",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "value": "produit",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "el commandeWesletni mass5a",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "el commande",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9647388458251953,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "عندكم تلفون",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "تلفون",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "تبيعو روبو كوجينة",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "روبو كوجينة",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "valisesdisponible ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "valises",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "el mongela wesletni mkasra",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "el mongela",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "el vase Feha ta5bicha helketha",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "el vase",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.8255472183227539,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nal9achi maquillages",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "maquillages",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "نلقاش عندكم [فاليجات] (produit)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.5943379998207092,
+        "value": "produit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "telfounمزال موجود",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "telfoun",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Jetni el tenu m9at3a fil ydin",
+    "entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "value": "el tenu",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "el talvzaMa te5demch",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "el talvza",
+        "entity": "produit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "produit",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.546493649482727,
+        "value": "el",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

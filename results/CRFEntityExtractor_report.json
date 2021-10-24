@@ -1,0 +1,27 @@
+{
+  "produit": {
+    "precision": 1.0,
+    "recall": 0.21818181818181817,
+    "f1-score": 0.3582089552238806,
+    "support": 55,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.21818181818181817,
+    "f1-score": 0.3582089552238806,
+    "support": 55
+  },
+  "macro avg": {
+    "precision": 1.0,
+    "recall": 0.21818181818181817,
+    "f1-score": 0.3582089552238806,
+    "support": 55
+  },
+  "weighted avg": {
+    "precision": 1.0,
+    "recall": 0.21818181818181817,
+    "f1-score": 0.3582089552238806,
+    "support": 55
+  }
+}

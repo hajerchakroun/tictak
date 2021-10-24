@@ -1,0 +1,1575 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hey!
+    - Hello
+    - Good day
+    - Good morning
+    - 3asslema
+    - slm !
+    - salem
+    - asslema
+    - bonjour
+    - bnj
+    - bjr
+    - ahla
+    - aslema
+    - مرحبا
+    - اهلا
+    - سلام
+    - عسلاما
+    - عسلامة
+    - slm
+    - cc
+    - salut salut
+- intent: exist
+  examples: |
+    - Slm, bech nes2el 3al [krateb](produit) mta3 el makteb chnouma les modèles ili 3andkom
+    - Nal9a 3andkom [des sac à dos](produit)
+    - Tbi3ou [des valises](produit)
+    - Nal9achi [maquillages](produit)
+    - Tbi3ouchi [des tentes](produit)
+    - Bech nes2l 3la [les parfums](produit)
+    - Fama [des ecouteurs](produit)
+    - (produit)نلقاش عندكم[فاليجات]
+    - (produit)[عندكم [تلفون
+    - نلقى لبسة
+    - تبيعو روبو كوجينة
+    - فما
+    - 3andkom [des sac à dos](produit) mta3 makteb
+    - 3andkom [des sac à mains](produit)?
+    - ch3andkom des produits
+    - 3andkom [des sac à dos](produit)[des sac à dos](produit) mta3 makteb ,
+    - fama [des valises](produit)
+    - fama [des valises](produit) ?
+    - 3andkom [des sac à dos](produit)[des sac à dos](produit) mta3 makteb ,
+- intent: fin
+  examples: |
+    - ok
+    - mrigl
+    - merci beaucoup
+    - mer6
+    - aya behi
+    - Behi
+    - ya3tikom el sa7a
+    - d'accord
+    - aw behi
+    - très bien
+    - ايا باهي
+    - يعطيكم الصحة
+    - مريقل
+    - c b1 aya rabi y3inkom
+    - d'accord merci
+    - sa77it
+    - merci
+    - aya sa77it
+- intent: descrip
+  examples: |
+    - [les tentes](produit) dispo ?
+    - [el ecran solaire](produit) mezel 3andkom mino
+    - Mazel mawjoud meno hedha ?
+    - [valises](produit) disponible ?
+    - [sac à dos](produit) Dspo
+    - مازال منه
+    - مزال موجود
+    - b9adech [el produit](produit) hedha
+    - gedech soumou hadha
+    - kadech el prix mte3ou ?
+    - B9adech
+    - b9adeh
+    - 9adech
+    - 9adeh
+    - 9idech
+    - kadech
+    - kadeh
+    - gadech
+    - gadeh
+    - guedech
+    - gdech
+    - bkadech
+    - bgedeh
+    - bguadech
+    - بقداش
+    - قداش سومها
+    - بقداه
+    - السوم
+    - n7eb nes2el 3al  soum [el 7kok](produit) hedhom
+    - fama [des chaussures](produit) w b9adech
+    - prix
+    - 9adech min loun fih
+    - Chneya el matière el masnou3 beha
+    - Chnya el qualité mte3ha
+    - Fama el motif hedhi ?
+    - Chnouma les Couleurs dispo ?
+    - Chfama alwen fih
+    - Chneya el marque
+    - Kadech kborha
+    - Kadeh dimension mte3o
+    - Gdech 3ordhha
+    - Gadeh min mitro feha
+    - Fama menha fi market o5rin ?
+    - Fama ken bil ward ?
+    - Mnech masnou3a
+    - Lou7 w plastique ?
+    - Acier inoxidable  wala argent ?
+    - شنو الالوان الموجودة ؟
+    - شنيا المادة المصنوع منها
+    - شنوا الماركات لخرين
+    - قداش كبرها ؟
+    - طولها
+    - عرضها
+    - marque
+    - alwen
+    - couleurs
+    - matiere
+    - kobrha
+    - dimension
+    - fama wale
+    - w bgadeh hedhom
+    - les sac à dos hedhom disponible ? w chnawa les couleurs
+    - fama minhom couleur o5ra w b9adech
+    - fama couleur o5rin w b9adech
+    - chnawa fama couleurs ?
+    - b9adech
+    - n7eb nes2el 3ala [service à table](produit) b9adech
+    - n7eb na3ref soum [les pyjamas](produit)
+    - b9adech [les sacs](produit)
+    - b9adech [el falijet](produit) el sfor w fihom alwen o5rin ?
+    - n7eb nes2el 3ala produit b9adech
+    - b9adech el produit
+    - b9adech el produit x
+    - n7eb nes2el 3al  soum el produit hedha
+    - chnawa les couleurs fil modèle hedha
+    - b9adech [les valises](produit) hedhom
+    - chnawa les couleurs fi hedhi
+    - chnouma les couleurs ili fama
+- intent: ref_produit
+  examples: |
+    - [OMB093G-Argent](sku)
+    - [OMB093M-Noir](sku)
+    - [OMB093M-Argent](sku)
+    - [OMB093S-Bleu](sku)
+    - [WD558](sku)
+    - [WD558-Rouge](sku)
+    - [WD558-Bleu](sku)
+    - [COL38](sku)
+    - [MD65](sku)
+    - [PJ19SHM1](sku)
+    - [PJ19SHM1-S](sku)
+    - [PJ19SHM1-M](sku)
+    - [PJ19SHM1-L](sku)
+    - [PJ19SHM1-XL](sku)
+    - [PJ19SHM1-XXL](sku)
+    - [PJ19SHM2-S](sku)
+    - [PJ19SHM2-M](sku)
+    - [PJ19SHM2-L](sku)
+    - [PJ19SHM2-XL](sku)
+    - [PJ19SHM2-XXL](sku)
+    - [PJ19PLM1](sku)
+    - [PJ19PLM1-S](sku)
+    - [PJ19PLM1-M](sku)
+    - [PJ19PLM1-L](sku)
+    - [PJ19PLM1-XL](sku)
+    - [PJ19PLM1-XXL](sku)
+    - [PJ19PLM2-S](sku)
+    - [PJ19PLM2-M](sku)
+    - [PJ19PLM2-L](sku)
+    - [PJ19PLM2-XL](sku)
+    - [PJ19PLM2-XXL](sku)
+    - [CRT20BL-XXL](sku)
+    - [CRT20NO](sku)
+    - [CRT20NO-S](sku)
+    - [CRT20NO-M](sku)
+    - [CRT20NO-XL](sku)
+    - [CRT20NO-XXL](sku)
+    - [PJ19PLM2](sku)
+    - [PJ19SHM2](sku)
+    - [LR04-Orange](sku)
+    - [RSB08](sku)
+    - [RSB08-Blue marine](sku)
+    - [RSB08-Rose](sku)
+    - [RSB08-Blanc](sku)
+    - [RSB08-Vert](sku)
+    - [GWS700](sku)
+    - [GWS9-125](sku)
+    - [GWS2200](sku)
+    - [GSB570](sku)
+    - [GSB13](sku)
+    - [PPR76](sku)
+    - [WD4010](sku)
+    - [FLH42](sku)
+    - [FLH18](sku)
+    - [AR5J](sku)
+    - [KA4P](sku)
+    - [GST650](sku)
+    - [SB140](sku)
+    - [DAS02](sku)
+    - [DAT02](sku)
+    - [TA140](sku)
+    - [AIWA40](sku)
+    - [SSF32](sku)
+    - [MB04](sku)
+    - [PFS02](sku)
+    - [PUMP2](sku)
+    - [CFB8](sku)
+    - [EM13842](sku)
+    - [ASS039](sku)
+    - [ASS040](sku)
+    - [ASS008](sku)
+    - [AC6M2](sku)
+    - [SIM6T](sku)
+    - [SIM6T-4](sku)
+    - [SIM6T-6](sku)
+    - [SIM6T-8](sku)
+    - [SIM6T-10](sku)
+    - [SIM6T-12](sku)
+    - [SIM6T-14](sku)
+    - [SK2994-Motif 1](sku)
+    - [SK2994-Motif 2](sku)
+    - [SK2994](sku)
+    - [BLZEG](sku)
+    - [BLZEG-6](sku)
+    - [BLZEG-8](sku)
+    - [BLZEG-10](sku)
+    - [BLZEG-12](sku)
+    - [BLZEF](sku)
+    - [BLZEF-6](sku)
+    - [BLZEF-8](sku)
+    - [BLZEF-10](sku)
+    - [BLZEF-12](sku)
+    - [SAC1985-Saumon](sku)
+    - [SAC1985-Caramel](sku)
+    - [2075](sku)
+    - [2075-Marron](sku)
+    - [2075-Miel](sku)
+    - [2075-Noir](sku)
+    - [SDF02-Miel](sku)
+    - [SDF02-Rouge](sku)
+    - [SDF02-Noir](sku)
+    - [SDF02-Marron](sku)
+    - [7011](sku)
+    - [7011-Jaune](sku)
+    - [7011-Noir](sku)
+    - [k20](sku)
+    - [k20-Motif 2](sku)
+    - [k20-Motif 1](sku)
+    - [k20-Motif 3](sku)
+    - [4136](sku)
+    - [4136r-Rose](sku)
+    - [4136-Marron](sku)
+    - [4136-Noir](sku)
+    - [HO3](sku)
+    - [HO3-Motif 1](sku)
+    - [HO3-Motif 2](sku)
+    - [HO3-Motif 3](sku)
+    - [HO3-Motif 4](sku)
+    - [MR052-Beige](sku)
+    - [MR05](sku)
+    - [MR05-Motif 1](sku)
+    - [ST1002](sku)
+    - [ST1002-Motif 1](sku)
+    - [ST1002-Motif 2](sku)
+    - [ST1002-Motif 3](sku)
+    - [ST1002-Motif 4](sku)
+    - [ST1002-Motif 5](sku)
+    - [ST1002-Motif 6](sku)
+    - [ST1002-Motif 7](sku)
+    - [ST1002-Motif 8](sku)
+    - [ST1002-Motif 9](sku)
+    - [P1010](sku)
+    - [S1020-Motif 1](sku)
+    - [S1020-Motif 2](sku)
+    - [S1020-Motif 3](sku)
+    - [KT4D](sku)
+    - [KT4D-Motif 1](sku)
+    - [KT4D-Motif 2](sku)
+    - [KT4D-Motif 3](sku)
+    - [KT4D-Motif 4](sku)
+    - [CAO3PM](sku)
+    - [CAO3PM-Motif 1](sku)
+    - [CAO3PM-Motif 2](sku)
+    - [CAO3PM-Motif 3](sku)
+    - [CRA2](sku)
+    - [CRA2-Noir](sku)
+    - [CRA2-Caramel](sku)
+    - [S1020](sku)
+    - [D1ST6](sku)
+    - [D1ST6-Motif 1](sku)
+    - [D1ST3](sku)
+    - [D1ST3-Motif 1](sku)
+    - [D1ST2-Motif 1](sku)
+    - [D3ST2](sku)
+    - [D3ST2-Motif 1](sku)
+    - [D3ST2-Motif 2](sku)
+    - [D3ST3](sku)
+    - [D3ST3-Motif 1](sku)
+    - [D3ST3-Motif 2](sku)
+    - [D3ST5](sku)
+    - [D3ST5-Motif 1](sku)
+    - [D3ST5-Motif 2](sku)
+    - [RI3V2-Motif 1](sku)
+    - [RI3V1-Motif 1](sku)
+    - [RI2V7](sku)
+    - [RI2V7-Motif 1](sku)
+    - [RI2V5-Motif 1](sku)
+    - [RI2V3-Motif 1](sku)
+    - [RI2V2-Motif 1](sku)
+    - [RI2V1](sku)
+    - [RI2V1-Motif 1](sku)
+    - [HZ3D1](sku)
+    - [HZ3D1-Motif 1](sku)
+    - [HZ3D2](sku)
+    - [HZ3D2-Motif 1](sku)
+    - [HZ3D2-Motif 2](sku)
+    - [HZ3D2-Motif 3](sku)
+    - [HZ3D3](sku)
+    - [HZ3D3-Motif 1](sku)
+    - [HZ3D3-Motif 2](sku)
+    - [HZ3D5](sku)
+    - [HZ3D5-Motif 1](sku)
+    - [HZ3D5-Motif 2](sku)
+    - [HZ1D1](sku)
+    - [HZ1D1-Motif 1](sku)
+    - [HZ1D1-Motif 2](sku)
+    - [HZ1D2](sku)
+    - [HZ1D2-Motif 1](sku)
+    - [HZ1D2-Motif 2](sku)
+    - [HZ1D3](sku)
+    - [HZ1D3-Motif 1](sku)
+    - [HZ1D3-Motif 2](sku)
+    - [HZ1D3-Motif 3](sku)
+    - [HZ1D4-Motif 1](sku)
+    - [GL3D2](sku)
+    - [GL3D2-Motif 1](sku)
+    - [GL3D2-Motif 2](sku)
+    - [GL2D1](sku)
+    - [GL2D1-Motif 1](sku)
+    - [GL2D1-Motif 2](sku)
+    - [GL2D6](sku)
+    - [CFC1MC](sku)
+    - [CFC1MC-36](sku)
+    - [P14000](sku)
+    - [PB02](sku)
+    - [ST140](sku)
+    - [MP63](sku)
+    - [MP63-Bleu](sku)
+    - [MP63-Noir](sku)
+    - [MP63-Blanc](sku)
+    - [LED04](sku)
+    - [LED04-Motif 1](sku)
+    - [LED04-Motif 2](sku)
+    - [LED03-Gris](sku)
+    - [LED03-Blanc](sku)
+    - [LED03-Noir](sku)
+    - [SG002](sku)
+    - [CH10](sku)
+    - [LE01](sku)
+    - [ASB01](sku)
+    - [BR200](sku)
+    - [ACEM40](sku)
+    - [GLM20](sku)
+    - [RL3208](sku)
+- intent: command
+  examples: |
+    - Commande
+    - 3adili Cmd
+    - N7eb n3adi commande
+    - N7eb nechri
+    - Bch nekmandi
+    - N7eb ne5ou minha
+    - Nheb nekhedh wa7da haka
+    - Je veux acheter
+    - Je veux passer une commande
+    - نحب نشري
+    - بش نكمندي
+    - عديلي كوموند في هذا
+    - n7eb nekmandi
+    - n7eb necmandi 2 pièces menha
+    - n7eb nechri
+    - n7eb n3adi commande
+    - n7eb n3addi commande
+    - je veux passer une commande
+    - behi n7eb nechri menha
+    - n7eb nechri meno
+    - n7eb nechri w n3adi commande
+    - n7eb nechrih
+- intent: nom_client
+  examples: |
+    - [Hajer chakroun](name)
+    - [Kamel aloui](name)
+    - [slim abd el barri](name)
+    - [nouha mtibaa](name)
+    - [mohamed ben abdallah](name)
+    - [fatma bou gsiaa](name)
+    - [mouna kammoun](name)
+    - [Hajer Braham](name)
+    - [hedia issaoui](name)
+    - [manel fray](name)
+    - [Ayadi ibtissem](name)
+    - [Ons khlifa](name)
+    - [hanen](name)
+    - [Hajer chakrlou](name)
+    - [Adel bougharga](name)
+    - [joujou dfghkj](name)
+    - [hajer chakroun](name)
+    - [ali](name)
+    - [fathiza](name)
+    - [kamel](name)
+    - [hajer](name)
+    - [adel bougharga](name)
+    - [Mohamed](name)
+    - [Naël](name)
+    - [Amir](name)
+    - [Rayan](name)
+    - [Ibrahim](name)
+    - [Sohan](name)
+    - [Imrân](name)
+    - [Kaïs](name)
+    - [Soan](name)
+    - [Naïm](name)
+    - [Ilyan](name)
+    - [Noâm](name)
+    - [Ilyès](name)
+    - [Ali](name)
+    - [Anas](name)
+    - [Ayoub](name)
+    - [Wassim](name)
+    - [Youssef](name)
+    - [Issa](name)
+    - [Aylan](name)
+    - [Hamza](name)
+    - [Kenzo](name)
+    - [Noham](name)
+    - [Younès](name)
+    - [Kayden](name)
+    - [Amine](name)
+    - [Ahmed](name)
+    - [Nahïl](name)
+    - [Yassine](name)
+    - [Kassim](name)
+    - [Zakaria](name)
+    - [Haroun](name)
+    - [Aymen](name)
+    - [Moussa](name)
+    - [Nassim](name)
+    - [Idriss](name)
+    - [Zayn](name)
+    - [Ilyâs](name)
+    - [Mohammed](name)
+    - [Jâd](name)
+    - [Djibril](name)
+    - [Iyad](name)
+    - [Kâmil](name)
+    - [Bilal](name)
+    - [Mehdi](name)
+    - [Samy](name)
+    - [Omar](name)
+    - [Souleymane](name)
+    - [Sami](name)
+    - [Anis](name)
+    - [Souleyman](name)
+    - [Issam](name)
+    - [Malik](name)
+    - [Qassim](name)
+    - [Yacine](name)
+    - [Jassim](name)
+    - [Imrâne](name)
+    - [Ismaël](name)
+    - [Emir](name)
+    - [Jessim](name)
+    - [Sofiane](name)
+    - [Iyed](name)
+    - [Khalil](name)
+    - [Nahël](name)
+    - [Zayd](name)
+    - [Youssouf](name)
+    - [Adel](name)
+    - [Rayane](name)
+    - [Salim](name)
+    - [Elyas](name)
+    - [Yusuf](name)
+    - [Abdallah](name)
+    - [Ishaq](name)
+    - [Abdoulaye](name)
+    - [Muhammad](name)
+    - [Jibril](name)
+    - [Ziyad](name)
+    - [Ilian](name)
+    - [Sélim](name)
+    - [Zakariya](name)
+    - [Bilel](name)
+    - [Yasser](name)
+    - [Youcef](name)
+    - [Yahya](name)
+    - [Yazid](name)
+    - [Ismaïl](name)
+    - [Joud](name)
+    - [Marwan](name)
+    - [Farès](name)
+    - [Riyad](name)
+    - [Mahdi](name)
+    - [Enes](name)
+    - [Mouhamed](name)
+    - [Idris](name)
+    - [Karim](name)
+    - [Ibrahima](name)
+    - [Walid](name)
+    - [Chahine](name)
+    - [Yassin](name)
+    - [Aboubacar](name)
+    - [Ishak](name)
+    - [Soulayman](name)
+    - [Ziad](name)
+    - [Islem](name)
+    - [Kays](name)
+    - [Ayman](name)
+    - [Yassir](name)
+    - [Waël](name)
+    - [Muhammed](name)
+    - [Hassan](name)
+    - [Anès](name)
+    - [Elouan](name)
+    - [Adil](name)
+    - [Nabil](name)
+    - [Amjad](name)
+    - [Louay](name)
+    - [Abdoul](name)
+    - [Saâd](name)
+    - [Ryad](name)
+    - [Akram](name)
+    - [Maher](name)
+    - [Kahil](name)
+    - [Bakary](name)
+    - [Jawad](name)
+    - [Mustafa](name)
+    - [Mohamed-Amine](name)
+    - [Samir](name)
+    - [Camil](name)
+    - [Noha](name)
+    - [Zyad](name)
+    - [Mohamed-Ali](name)
+    - [Fahim](name)
+    - [Hakim](name)
+    - [Amar](name)
+    - [Mehmet](name)
+    - [Réda](name)
+    - [Aymane](name)
+    - [Boubacar](name)
+    - [Zayan](name)
+    - [Badis](name)
+    - [Habib](name)
+    - [Youness](name)
+    - [Aziz](name)
+    - [Abdellah](name)
+    - [Ziyed](name)
+    - [Daoud](name)
+    - [Nadir](name)
+    - [Khalid](name)
+    - [Abdelkader](name)
+    - [Abderrahmane](name)
+    - [Driss](name)
+    - [Zeyd](name)
+    - [Amîn](name)
+    - [Sahel](name)
+    - [Abdullah](name)
+    - [Abdel](name)
+    - [Osman](name)
+    - [Nawfel](name)
+    - [Jamal](name)
+    - [Hasan](name)
+    - [Zaïm](name)
+    - [Abderrahman](name)
+    - [Sabri](name)
+    - [Zinedine](name)
+    - [Sofian](name)
+    - [Mansour](name)
+    - [Jawed](name)
+    - [Farel](name)
+    - [Farell](name)
+    - [Abdoullah](name)
+    - [Abdou](name)
+    - [Kamel](name)
+    - [Hicham](name)
+    - [Mohamed-Lamine](name)
+    - [Rachid](name)
+    - [Djino](name)
+    - [Saïd](name)
+    - [Mustapha](name)
+    - [Dalil](name)
+    - [Khaled](name)
+    - [Bachir](name)
+    - [Hussein](name)
+    - [Redouane](name)
+    - [Abd](name)
+    - [Djawad](name)
+    - [Zaïd](name)
+    - [Abdul](name)
+    - [Mourad](name)
+    - [Salem](name)
+    - [Djalil](name)
+    - [Nasser](name)
+    - [Tarek](name)
+    - [Abdourahmane](name)
+    - [Tarik](name)
+    - [Hocine](name)
+    - [Soufiane](name)
+    - [Merwan](name)
+    - [Djamal](name)
+    - [Djawed](name)
+    - [Hüseyin](name)
+    - [Anwar](name)
+    - [Djamel](name)
+    - [Abdelrahman](name)
+    - [Fatih](name)
+    - [Djamil](name)
+    - [Abbas](name)
+    - [Abderahmane](name)
+    - [Djilali](name)
+    - [Abdelaziz](name)
+    - [Kadir](name)
+    - [Farid](name)
+    - [Ramzi](name)
+    - [Zoumana](name)
+    - [Mohamed-Amir](name)
+    - [Zayed](name)
+    - [Faris](name)
+    - [Farouk](name)
+    - [Zain](name)
+    - [Djibryl](name)
+    - [Boubou](name)
+    - [Billal](name)
+    - [Djoulian](name)
+    - [Belkacem](name)
+    - [Abdoul-Karim](name)
+    - [Wakil](name)
+    - [Rabah](name)
+    - [Abderrahim](name)
+    - [Abderahman](name)
+    - [Abdelkarim](name)
+    - [Abdoul-Aziz](name)
+    - [Mohamed-Aziz](name)
+    - [Bakari](name)
+    - [Lotfi](name)
+    - [Kamal](name)
+    - [Hichem](name)
+    - [Fouad](name)
+    - [Rafik](name)
+    - [Mohamed-Yassine](name)
+    - [Abdurrahman](name)
+    - [Abdelhakim](name)
+    - [Djivan](name)
+    - [Faress](name)
+    - [Farhan](name)
+    - [Mohamed-Adam](name)
+    - [Abdirahman](name)
+    - [Nadjim](name)
+    - [Jebril](name)
+    - [Abdessamad](name)
+    - [Abdelrahim](name)
+    - [Abdelmalik](name)
+    - [Farrell](name)
+    - [Jalal](name)
+    - [Abdel-Rahman](name)
+    - [Zine](name)
+    - [Mohamed-Amin](name)
+    - [Abdelkrim](name)
+    - [Abdelhamid](name)
+    - [Morad](name)
+    - [Abdulrahman](name)
+    - [Zahid](name)
+    - [Bouna](name)
+    - [Abdelrahmane](name)
+    - [Abderahim](name)
+    - [Abdramane](name)
+    - [Talal](name)
+    - [Abdelmajid](name)
+    - [Billel](name)
+    - [Jamel](name)
+    - [Abdelwahab](name)
+    - [Djiby](name)
+    - [Abdeljalil](name)
+    - [Abdenour](name)
+    - [Abd-Allah](name)
+    - [Farhane](name)
+    - [Abdel-Rahim](name)
+    - [Abderrahmen](name)
+    - [Abdoul-Kader](name)
+    - [Abdurahman](name)
+    - [Faruk](name)
+    - [Mohamed-Taha](name)
+    - [Lakhdar](name)
+    - [Zahir](name)
+    - [Abdelmalek](name)
+    - [Abdelali](name)
+    - [Abdulkadir](name)
+    - [Abdel-Kader](name)
+    - [Miloud](name)
+    - [Boubakar](name)
+    - [Mohamed-Yacine](name)
+    - [Abdulhamid](name)
+    - [Abdourahman](name)
+    - [Djemil](name)
+    - [Mohamed-Ilyes](name)
+    - [Mohamed-Yanis](name)
+    - [Mohamed-Youssef](name)
+    - [Ziya](name)
+    - [Abdelnour](name)
+    - [Abdellatif](name)
+    - [Fathi](name)
+    - [Zidane](name)
+    - [Jaafar](name)
+    - [Nacer](name)
+    - [Farrel](name)
+    - [Mohamed-Ayoub](name)
+    - [Mohamed-Reda](name)
+    - [Abdrahman](name)
+    - [Fariss](name)
+    - [Mohamed-Salah](name)
+    - [Ziyan](name)
+    - [Abdollah](name)
+    - [Abdoulaziz](name)
+    - [Abdourahim](name)
+    - [Baki](name)
+    - [Djallil](name)
+    - [Farez](name)
+    - [Mohamed-Salim](name)
+    - [Abderrazak](name)
+    - [Abdoulhakim](name)
+    - [Faouzi](name)
+    - [Medhi](name)
+    - [Abdelilah](name)
+    - [Abdel-Malik](name)
+    - [Boulaye](name)
+    - [Oualid](name)
+    - [Abdelhadi](name)
+    - [Abdennour](name)
+    - [Charif](name)
+    - [Djimy](name)
+    - [Djilan](name)
+    - [Djimé](name)
+    - [Abdelrahmen](name)
+    - [Bakasso](name)
+    - [Bouabdallah](name)
+    - [Farouq](name)
+    - [Abdelhafid](name)
+    - [Djillali](name)
+    - [Abdel-Jalil](name)
+    - [Abdelillah](name)
+    - [Abderahmen](name)
+    - [Abderaouf](name)
+    - [Abderraouf](name)
+    - [Abdoul-Malik](name)
+    - [Abdoulkarim](name)
+    - [Abdourahamane](name)
+    - [Abdulla](name)
+    - [Abdel-Hakim](name)
+    - [Mohamed-Adem](name)
+    - [Mohamed-Anas](name)
+    - [Mohamed-El](name)
+    - [Mohamed-Wassim](name)
+    - [Mohamed-Younes](name)
+    - [Taleb](name)
+    - [Zahi](name)
+    - [Hachim](name)
+    - [Djawel](name)
+    - [Abdourrahman](name)
+    - [Abdou-Rahman](name)
+    - [Djimmy](name)
+    - [Abdelmadjid](name)
+    - [Lina](name)
+    - [Inès](name)
+    - [Inaya](name)
+    - [Louna](name)
+    - [Noûr](name)
+    - [Aya](name)
+    - [Yasmine](name)
+    - [Alya](name)
+    - [Assia](name)
+    - [Alma](name)
+    - [Nora](name)
+    - [Amira](name)
+    - [Maryam](name)
+    - [Manël](name)
+    - [Nélya](name)
+    - [Amina](name)
+    - [Jennah](name)
+    - [Jana](name)
+    - [Hana](name)
+    - [Emna](name)
+    - [Liya](name)
+    - [Fatima](name)
+    - [Jasmine](name)
+    - [Naya](name)
+    - [Aliya](name)
+    - [Mariam](name)
+    - [Lilya](name)
+    - [Selma](name)
+    - [Dina](name)
+    - [Lilia](name)
+    - [Naëlle](name)
+    - [Kenza](name)
+    - [Fatoumata](name)
+    - [Neyla](name)
+    - [Léyna](name)
+    - [Safiya](name)
+    - [Khadija](name)
+    - [Jannah](name)
+    - [Assya](name)
+    - [Janna](name)
+    - [Sirine](name)
+    - [Aminata](name)
+    - [Hafsa](name)
+    - [Asma](name)
+    - [Tasnîm](name)
+    - [Talia](name)
+    - [Mayssa](name)
+    - [Salma](name)
+    - [Aaliyah](name)
+    - [Kamila](name)
+    - [Hawa](name)
+    - [Noor](name)
+    - [Nayla](name)
+    - [Mina](name)
+    - [Alia](name)
+    - [Soumaya](name)
+    - [Mona](name)
+    - [Malak](name)
+    - [Marwa](name)
+    - [Assiya](name)
+    - [Hidaya](name)
+    - [Esma](name)
+    - [Sana](name)
+    - [Isra](name)
+    - [Elif](name)
+    - [Imane](name)
+    - [Assil](name)
+    - [Layâ](name)
+    - [Tesnim](name)
+    - [Neïla](name)
+    - [Safia](name)
+    - [Yousra](name)
+    - [Safâ](name)
+    - [Nola](name)
+    - [Rania](name)
+    - [Ayna](name)
+    - [Farah](name)
+    - [Anissa](name)
+    - [Zahra](name)
+    - [Amel](name)
+    - [Lahna](name)
+    - [Leyla](name)
+    - [Hind](name)
+    - [Rita](name)
+    - [Halima](name)
+    - [Hajar](name)
+    - [Isrâa](name)
+    - [Syana](name)
+    - [Zaynab](name)
+    - [Azra](name)
+    - [Soraya](name)
+    - [Aïcha](name)
+    - [Tasnime](name)
+    - [Sanaa](name)
+    - [Firdaws](name)
+    - [Syrine](name)
+    - [Mériem](name)
+    - [Imany](name)
+    - [Ania](name)
+    - [Yara](name)
+    - [Sakina](name)
+    - [Siana](name)
+    - [Leïla](name)
+    - [Layla](name)
+    - [Jihane](name)
+    - [Melek](name)
+    - [Djenna](name)
+    - [Zayneb](name)
+    - [Nawel](name)
+    - [Méllina](name)
+    - [Mayssane](name)
+    - [Zina](name)
+    - [Khadidja](name)
+    - [Hiba](name)
+    - [Razane](name)
+    - [Malika](name)
+    - [Nada](name)
+    - [Dounia](name)
+    - [Eya](name)
+    - [Nesrine](name)
+    - [Yasmina](name)
+    - [Basma](name)
+    - [Rahma](name)
+    - [Inaïa](name)
+    - [Fatma](name)
+    - [Nadia](name)
+    - [Fatima-Zahra](name)
+    - [Maram](name)
+    - [Zohra](name)
+    - [Nessa](name)
+    - [Esra](name)
+    - [Imen](name)
+    - [Yamina](name)
+    - [Ayah](name)
+    - [Insaf](name)
+    - [Zineb](name)
+    - [Fatimata](name)
+    - [Maïssa](name)
+    - [Kheïra](name)
+    - [Ritej](name)
+    - [Wassila](name)
+    - [Zeyna](name)
+    - [Dalya](name)
+    - [Zayna](name)
+    - [Samia](name)
+    - [Nihal](name)
+    - [Fatim](name)
+    - [Médina](name)
+    - [Zaïnab](name)
+    - [Ambrine](name)
+    - [Djamila](name)
+    - [Siham](name)
+    - [Loubna](name)
+    - [Zita](name)
+    - [Lamia](name)
+    - [Fatiha](name)
+    - [Bahia](name)
+    - [Bouchra](name)
+    - [Salima](name)
+    - [Nafissa](name)
+    - [Rana](name)
+    - [Intissar](name)
+    - [Jamila](name)
+    - [Iman](name)
+    - [Fatouma](name)
+    - [Habiba](name)
+    - [Laïla](name)
+    - [Ghalia](name)
+    - [Shérazade](name)
+    - [Zaïneb](name)
+    - [Latifa](name)
+    - [Kalissa](name)
+    - [Najwa](name)
+    - [Zahia](name)
+    - [Rachida](name)
+    - [Zaya](name)
+    - [Emel](name)
+    - [Fatimah](name)
+    - [Oumaya](name)
+    - [Zahara](name)
+    - [Wafa](name)
+    - [Farida](name)
+    - [Soukaïna](name)
+    - [Nabila](name)
+    - [Fatoumata-Binta](name)
+    - [Maïssane](name)
+    - [Chérine](name)
+    - [Fatna](name)
+    - [Raïssa](name)
+    - [Majda](name)
+    - [Djoulia](name)
+    - [Zyneb](name)
+    - [Nawal](name)
+    - [Hamida](name)
+    - [Naïma](name)
+    - [Djaina](name)
+    - [Nassima](name)
+    - [Farha](name)
+    - [Zahira](name)
+    - [Zaïna](name)
+    - [Dalal](name)
+    - [Zahya](name)
+    - [Aziza](name)
+    - [Zoulikha](name)
+    - [Fatimé](name)
+    - [Houriya](name)
+    - [Djelissa](name)
+    - [Fariha](name)
+    - [Faïza](name)
+    - [Djihane](name)
+    - [Chirine](name)
+    - [Zyna](name)
+    - [Farmata](name)
+    - [Zainaba](name)
+    - [Djamilla](name)
+    - [Djelika](name)
+    - [Nehla](name)
+    - [Chérifa](name)
+    - [Fatima-Zohra](name)
+    - [Zayane](name)
+    - [Djill](name)
+    - [Farda](name)
+    - [Djouliana](name)
+    - [Zoubida](name)
+    - [Fara](name)
+    - [Fadila](name)
+    - [Chaïnez](name)
+    - [Djamina](name)
+    - [Bakhta](name)
+    - [Fatmanur](name)
+    - [Farrah](name)
+    - [Djoumana](name)
+    - [Wahida](name)
+    - [Zinab](name)
+    - [Zouhour](name)
+    - [mariem](name)
+    - [nour](name)
+    - [Khouloud](name)
+    - [Sarah](name)
+    - [ines](name)
+    - [farah](name)
+    - [sarra](name)
+    - [eya](name)
+    - [yasmine](name)
+    - [Ghada](name)
+    - [Cyrine](name)
+    - [amal](name)
+    - [sirine](name)
+    - [Malek](name)
+    - [sara](name)
+    - [imen](name)
+    - [myriam](name)
+    - [ghofrane](name)
+    - [Yosr](name)
+    - [nada](name)
+    - [Rim](name)
+    - [zeineb](name)
+    - [sahar](name)
+    - [rihab](name)
+    - [manel](name)
+    - [Dhifef](name)
+    - [May](name)
+    - [Yesmine](name)
+    - [Samar](name)
+    - [wissal](name)
+    - [meriem](name)
+    - [ONS](name)
+    - [Abir](name)
+    - [amira](name)
+    - [maya](name)
+    - [haifa](name)
+    - [Erij](name)
+    - [marwa](name)
+    - [Houda](name)
+    - [chaima](name)
+    - [sana](name)
+    - [nawres](name)
+    - [safa](name)
+    - [hend](name)
+    - [Nadine](name)
+    - [lina](name)
+    - [Soulayma](name)
+    - [arij](name)
+    - [Ameni](name)
+    - [Meriam](name)
+    - [khaoula](name)
+    - [roua](name)
+    - [Ikram](name)
+    - [lobna](name)
+    - [Marie](name)
+    - [Hanna](name)
+    - [oumaima](name)
+    - [rawa](name)
+    - [Lyna](name)
+    - [Ramla](name)
+    - [tasnime](name)
+    - [noor](name)
+    - [Rima](name)
+    - [Dora](name)
+    - [Hela](name)
+    - [yasmin](name)
+    - [Aycha](name)
+    - [Souhaďla](name)
+    - [Rayhane](name)
+    - [Wided](name)
+    - [Dorra](name)
+    - [lamia](name)
+    - [yosra](name)
+    - [Ranim](name)
+    - [amani](name)
+    - [Zaineb](name)
+    - [jihene](name)
+    - [refka](name)
+    - [wiem](name)
+    - [Yossr](name)
+    - [Tiffany](name)
+    - [khadija](name)
+    - [rose](name)
+    - [aziza](name)
+    - [Linda](name)
+    - [Aicha](name)
+    - [ARWA](name)
+    - [Leila](name)
+    - [jasmin](name)
+    - [Nahed](name)
+    - [raouaa](name)
+    - [tina](name)
+    - [amina](name)
+    - [Nourhene](name)
+    - [Sihem](name)
+    - [Azza](name)
+    - [hanine](name)
+    - [Mouna](name)
+    - [syrina](name)
+    - [Ajmi](name)
+    - [Cherifa](name)
+    - [Ferdaous](name)
+    - [Kallala](name)
+    - [rihem](name)
+    - [ASIL](name)
+    - [Douaa](name)
+    - [Hadil](name)
+    - [hiva](name)
+    - [Raies Fares](name)
+    - [Manai Seif Eddine](name)
+    - [Arfaoui Yosra](name)
+    - [Bakhouch Khouloud](name)
+    - [Alsassi Jamal Eddine](name)
+    - [Mankai Ramzi](name)
+    - [Mathlouthi Bilel](name)
+    - [Bensaleh Nesrine](name)
+    - [Mlik Abdelkader](name)
+    - [Ben Khlifa Ala Dine](name)
+    - [Mathlouthi Maroua](name)
+    - [Hirzi Mhe Aymen](name)
+    - [Belghith Khouloud](name)
+    - [Hachicha Anis](name)
+    - [Najjar Ahlem](name)
+    - [Hmem Samia](name)
+    - [Benmahmoud Jihed](name)
+    - [Ben Garbia Chaima](name)
+    - [Ghalloussi Rania](name)
+    - [Sahli Safa](name)
+    - [Naweli Khmis](name)
+    - [Mili Mohamed Amir](name)
+    - [Ben Sala H Maha](name)
+    - [Kacem Salah](name)
+    - [Amiri Khaoula](name)
+    - [Kacmi Abir](name)
+    - [Ben Salem Sahar](name)
+    - [Temani Amira](name)
+    - [Mraydi Nourhéne](name)
+    - [LILI](name)
+    - [salha](name)
+    - [sofia](name)
+    - [Youssr](name)
+    - [celianthe](name)
+    - [FANEVA](name)
+    - [Jaweher](name)
+    - [mannou](name)
+    - [Naouel](name)
+    - [Raoudha](name)
+    - [sarab](name)
+    - [triki](name)
+    - [diane](name)
+    - [ghaya](name)
+    - [nourhenne](name)
+    - [Ynes](name)
+    - [rita](name)
+    - [Raja](name)
+    - [Samia Chamekh](name)
+    - [zazie](name)
+    - [alia](name)
+    - [chiraz](name)
+    - [FERIEL](name)
+    - [Kaouther](name)
+    - [Mira](name)
+    - [Sondes](name)
+    - [Youta](name)
+    - [Abira](name)
+    - [Jennie](name)
+    - [Maryem](name)
+    - [napathy](name)
+    - [Andrea](name)
+    - [Donia](name)
+    - [kmar](name)
+    - [nousa](name)
+    - [ryma](name)
+    - [sinda](name)
+    - [Hassiba](name)
+    - [SAMIRA](name)
+    - [Aloui ](name)
+    - [malaika](name)
+    - [nazek](name)
+    - [fifi](name)
+    - [KARIMA boulaabi](name)
+    - [Sema](name)
+    - [ebtissem](name)
+    - [hajoura](name)
+    - [lilly](name)
+    - [Miniar](name)
+    - [Oumayma](name)
+    - [salma](name)
+    - [feryel](name)
+    - [souad](name)
+    - [zahra](name)
+    - [Afef](name)
+    - [fardaous](name)
+    - [Jey](name)
+    - [nawrass](name)
+    - [Raya](name)
+    - [wejden](name)
+    - [koubaa](name)
+    - [sabrine](name)
+    - [Sirin](name)
+    - [Besma](name)
+    - [Ines-Chan](name)
+    - [maha](name)
+    - [nadia](name)
+    - [zina](name)
+    - [Dadou](name)
+    - [Nouha](name)
+    - [ROMDHANI](name)
+    - [shana](name)
+    - [elaa](name)
+    - [hala](name)
+    - [ichrak](name)
+    - [lily](name)
+    - [Salsabil](name)
+    - [zainab](name)
+    - [Afifa](name)
+    - [chaime ben hsouna](name)
+    - [Farhat](name)
+    - [maram](name)
+    - [Gmar](name)
+    - [Beylessen](name)
+    - [Iness](name)
+    - [farhat](name)
+    - [Maha-Errim](name)
+    - [Sanda](name)
+    - [Teyma](name)
+    - [Daws](name)
+    - [fraiza](name)
+    - [Rori](name)
+    - [Shayma](name)
+    - [Azem](name)
+    - [Amani](name)
+    - [Ella](name)
+    - [IKBEL](name)
+    - [Molka](name)
+    - [Prelude](name)
+    - [salwa](name)
+    - [Ahlem](name)
+    - [Chayma](name)
+    - [Faten](name)
+    - [Marguerite](name)
+    - [Nazek](name)
+    - [guylčne](name)
+    - [layla](name)
+    - [Meri](name)
+    - [Olfa](name)
+    - [siwar](name)
+    - [Bochra](name)
+    - [karam](name)
+    - [iris](name)
+    - [Naemi](name)
+    - [saoussen](name)
+    - [dayan](name)
+    - [gasmi](name)
+    - [Marzouki](name)
+    - [Nour](name)
+    - [Sheima](name)
+    - [yassmine](name)
+    - [Emma](name)
+    - [ikhlass](name)
+    - [mouna](name)
+    - [raghd](name)
+    - [Samah](name)
+    - [Souleima](name)
+    - [Zaouia](name)
+    - [cheima](name)
+    - [Kaîss](name)
+    - [naziha](name)
+    - [sebai](name)
+    - [Willina](name)
+    - [dou-chan](name)
+    - [habiba](name)
+    - [Omayma](name)
+    - [saidane](name)
+    - [snoussi](name)
+    - [yousri](name)
+    - [bouthaina](name)
+    - [Fadwa](name)
+    - [hinda](name)
+- intent: adresse
+  examples: |
+    - [cité ghj rue dfsr tunis tunisie](adres)
+    - [soussa cité khzema rue bortoukal](adres)
+    - [cité xxx rue xxxx gafsa](adres)
+    - [Ariana](adres)
+    - [Béja](adres)
+    - [Ben Arous](adres)
+    - [Bizerte](adres)
+    - [Gabès](adres)
+    - [Gafsa](adres)
+    - [Jendouba](adres)
+    - [Kairouan](adres)
+    - [Kasserine](adres)
+    - [Kébili](adres)
+    - [Kef](adres)
+    - [Mahdia](adres)
+    - [Manouba](adres)
+    - [Médenine](adres)
+    - [Monastir](adres)
+    - [Nabeul](adres)
+    - [Sfax](adres)
+    - [jerba](adres)
+    - [7ay zouhour](adres)
+    - [hay el hbib](adres)
+    - [cité olympique](adres)
+    - [Sidi Bouzid](adres)
+    - [Siliana](adres)
+    - [Sousse](adres)
+    - [Tataouine](adres)
+    - [Tozeur](adres)
+    - [Tunis](adres)
+    - [Zaghouan](adres)
+    - [nahij dari kayis litorot gam](adres)
+    - [art da5lit irroliy il marsa fama 3lkayis mt3am sini mt3 souchi ana joust nahij li bjanbo](adres)
+    - [bizerte ,sid hmed, tri9 manzel bourgiba](adres)
+    - [djerba houmet essouq rue fyhk mednin](adres)
+    - [hammam soussa wra Monoprix](adres)
+    - [cite essourour gafsa](adres)
+    - [Rue karatchi Bardo2 Tunis](adres)
+    - [jendouba centre ville](adres)
+    - [N°5 AVENUE 14 JANVier CITé BASSATINE 3](adres)
+    - [09, Avenue Mouhamed 5, bassatine 1, boumhel, ben arous](adres)
+    - [route sousse km7 -2033 megrine-tunisie](adres)
+    - [KASSERINE 1200](adres)
+    - [قيروان](adres)
+    - [أريانة](adres)
+    - [باجة](adres)
+    - [بن عروس](adres)
+    - [بنزرت](adres)
+    - [تطاوين](adres)
+    - [توزر](adres)
+    - [تونس](adres)
+    - [جندوبة](adres)
+    - [زغوان](adres)
+    - [سليانة](adres)
+    - [سوسة](adres)
+    - [سيدي بوزيد](adres)
+    - [صفاقس](adres)
+    - [قابس](adres)
+    - [قبلي](adres)
+    - [القصرين](adres)
+    - [قفصة](adres)
+    - [القيروان](adres)
+    - [الكاف](adres)
+    - [مدنين](adres)
+    - [المنستير](adres)
+    - [منوبة](adres)
+    - [المهدية](adres)
+    - [نابل](adres)
+    - [Route de Monastir Km1 M'saken (terr-ferr en face de la municipalité) Code postal 4099](adres)
+    - [7ay zouhour 4 zaghouan](adres)
+    - [hay zouhour 4 tunis](adres)
+    - [siliana tunisie](adres)
+    - [tatouine](adres)
+    - [tunis](adres)
+    - [cité zouhour tunis](adres)
+- intent: tel
+  examples: |
+    - [25848459](tel)
+    - [20 258 966](tel)
+    - [21478963](tel)
+    - [22748931](tel)
+    - [23147532](tel)
+    - [24 478 632](tel)
+    - [25 41 26 78](tel)
+    - [26748491](tel)
+    - [27485961](tel)
+    - [28459631](tel)
+    - [29145876](tel)
+    - [23235746](tel)
+    - [55230879](tel)
+    - [24606203](tel)
+    - [98795619](tel)
+    - [97213956](tel)
+    - [50 531 514](tel)
+    - [50478963](tel)
+    - [51748932](tel)
+    - [52748963](tel)
+    - [53874129](tel)
+    - [54123697](tel)
+    - [55637493](tel)
+    - [56977423](tel)
+    - [57256325](tel)
+    - [58479661](tel)
+    - [59664788](tel)
+    - [96712699](tel)
+    - [95746321](tel)
+    - [90478563](tel)
+    - [91479855](tel)
+    - [92334477](tel)
+    - [93455523](tel)
+    - [94782102](tel)
+    - [95476322](tel)
+    - [96744488](tel)
+    - [97165879](tel)
+    - [99247533](tel)
+    - [98 47 56 32](tel)
+    - [55 677 613](tel)
+    - [96477856](tel)
+    - [54787962](tel)
+    - [98456127](tel)
+    - [98645123](tel)
+- intent: ask_livraison
+  examples: |
+    - Ta3mlou livraison
+    - 9adech 7a9 el tawssil
+    - Twasslou à domicile ?
+    - Kadech el frais de livraison ?
+    - Tlevriw l mednin
+    - توصلو للدار
+    - قداش حق التوصيل
+    - twasslo maw ?
+    - ya5i ta3mlo livraison
+- intent: ask_retour
+  examples: |
+    - N7eb Nraj3 el produit
+    - el mongela produit wesletni mkasra
+    - tawla Feha taksira 3la jnab
+    - Jetni el tenu m9at3a fil ydin
+    - el veste L9it feha takti3a sghira
+    - mréya Ki 7alitha nal9aha m5abcha
+    - el vase Feha ta5bicha helketha
+    - Nejem nbadl b7aja o5ra
+    - el robe Nal9a feha tache safra
+    - el commandeWesletni mass5a
+    - el talvza Ma te5demch
+    - نرجعها
+    - فيها تقطيعة
+    - فيها تخبيشة
+    - لقيتها مكسرة
+    - نحب نبدلها
+    - ما تخدمش
+- intent: code_cmd
+  examples: |
+    - [CMD 123456789](cmd)
+    - [CMD COOL-M](cmd)
+    - [CMD BR4916-4](cmd)
+    - [CMD GW140](cmd)
+    - [CMD V78-026](cmd)
+    - [CMD V71-609](cmd)
+    - [CMD P2CKCD](cmd)
+    - [CMD CAR2P](cmd)
+- intent: ask_general
+  examples: |
+    - Ech tbi3o ?
+    - Ch3andkom
+    - chneya wamia
+    - شنوا تبيعو؟
+    - chneya chat bot
+    - behi ye5i chnawa tbi3 bidhabt wamia
+    - chnawa tbi3ou ?
+    - ch3andkom entom
+    - chnawa tbi3ou
+- intent: ask_local
+  examples: |
+    - وين بلاصتكم؟
+    - عندكم صالة عرض؟
+    - Win el boutique mte3kom
+    - 3andkom local mnin nechri ?
+    - Showroom
+    - local
+    - boutique
+    - w 3andkom boutiques
+    - 3andkomchi [des](produit) showroom
+- intent: incomp
+  examples:
+  - text: |
+      Jdkjsnclncsd
+  - text: |
+      ya bhim chbik ma tjewebch
+  - text: |
+      56347;knjkbjhbsxdcfgvbhnk
+  - text: |
+      bhim
+  - text: |
+      tahane
+  - text: |
+      weld el kahba
+  - text: |
+      sayab zebi!
+  - text: |
+      sa5ta
+  - text: |
+      zabour omok!
+  - text: |
+      za7
+  - text: |
+      9a7ba
+  - text: |
+      3asba
+  - text: |
+      zebi
+  - text: |
+      merde
+  - text: |
+      yè 5ra	
+  - text: |
+      الخراء
+  - text: |
+      va te faire foutre!
+  - text: |
+      barra zammer!
+  - text: |
+      fucking!
+  - text: |
+      Va te faire voir!
+  - text: |
+      ta7chi fih!
+  - text: |
+      Go to hell!
+  - text: |
+      hbdfjd
+  - text: |
+      .
+  - text: |
+      wsdxdfcgfvhbjhn,
+  - text: |
+      ahhh narek chbik aaa
+  - text: |
+      tzyuidbn jkn,;xw
+  - text: |
+      bdjcnskdcn
+  - text: |
+      jbd;vnldjkvn;k, v
+  - text: |
+      bhim ye5i
+  - text: |
+      dnkcjsdldcs,
+  - text: |
+      c n; nvldx; ,
+  - text: |
+      ya 5ra hak bhim
+  - text: |
+      bara zamr
+  - text: |
+      [azertyuiop](adres)
+- intent: ask_id
+  examples: |
+    - Tictak
+    - Chatbot
+    - w enti ili ta7ki m3aya chatbot ye5i ?
+    - chkounk enti se3a
+    - w chkoun tictak
+- intent: lang
+  examples: |
+    - ta7ki 3arbi
+    - hak terfess bil derja
+    - tounssi
+    - ye5i ta7ki 3arbi
+    - tu parles en arabe
+    - chnowa el loughat ili ta7kihom
+    - ye5i ta7ki 3arbi ,
+    - taw ta7ki bil 3arbi kahaw ?
+- intent: dispo
+  examples: |
+    - chfama dispo
+- intent: service_client
+  examples: |
+    - n7eb na7ki m3a service client (humain)!!
+    - Un tout petit temps w yjewbouk [service](produit) clientèle Wamia et merci pour votre compréhension [<3](adres)
