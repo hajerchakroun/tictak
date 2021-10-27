@@ -24,6 +24,7 @@ nlu:
     - slm
     - cc
     - salut salut
+    - aya golna salem
 - intent: exist
   examples: |
     - Slm, bech nes2el 3al [krateb](produit) mta3 el makteb chnouma les modèles ili 3andkom
@@ -44,7 +45,6 @@ nlu:
     - 3andkom [des sac à dos](produit)[des sac à dos](produit) mta3 makteb ,
     - fama [des valises](produit)
     - fama [des valises](produit) ?
-    - 3andkom [des sac à dos](produit)[des sac à dos](produit) mta3 makteb ,
 - intent: fin
   examples: |
     - ok
@@ -1466,6 +1466,7 @@ nlu:
     - chnawa tbi3ou ?
     - ch3andkom entom
     - chnawa tbi3ou
+    - chnawa tbi3o
 - intent: ask_local
   examples: |
     - وين بلاصتكم؟
@@ -1549,6 +1550,12 @@ nlu:
       bara zamr
   - text: |
       [azertyuiop](adres)
+  - text: |
+      chaditli fil livraison ma sayabt ya za7i
+  - text: |
+      ti hak bhim
+  - text: |
+      fok 3ad
 - intent: ask_id
   examples: |
     - Tictak
@@ -1556,6 +1563,8 @@ nlu:
     - w enti ili ta7ki m3aya chatbot ye5i ?
     - chkounk enti se3a
     - w chkoun tictak
+    - chkoun ya7ki m3aya
+    - [3abd](name) ,
 - intent: lang
   examples: |
     - ta7ki 3arbi
@@ -1566,10 +1575,16 @@ nlu:
     - chnowa el loughat ili ta7kihom
     - ye5i ta7ki 3arbi ,
     - taw ta7ki bil 3arbi kahaw ?
+    - ta7ki [français](name) ?
 - intent: dispo
   examples: |
     - chfama dispo
+    - chfama
 - intent: service_client
   examples: |
     - n7eb na7ki m3a service client (humain)!!
     - Un tout petit temps w yjewbouk [service](produit) clientèle Wamia et merci pour votre compréhension [<3](adres)
+- intent: utter_response
+  examples: |
+    - [ysalmk](name)
+    - w bik aychk

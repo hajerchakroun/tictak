@@ -47,6 +47,8 @@ intents:
     use_entities: true
 - service_client:
     use_entities: true
+- utter_response:
+    use_entities: true
 entities:
 - produit
 - sku
@@ -130,6 +132,9 @@ responses:
   - text: Ta3tini l’adresse win t7eb tjik el commande !!?
   utter_ask_tel:
   - text: Numéro de tél svp
+  utter_utter_response:
+  - text: Aychek <3
+  - text: Merci
 actions:
 - utter_greet
 - utter_exist1
@@ -157,6 +162,7 @@ actions:
 - action_ask_name
 - action_ask_adres
 - action_ask_tel
+- utter_utter_response
 - validate_form_command
 - store_data_of_command
 forms:
