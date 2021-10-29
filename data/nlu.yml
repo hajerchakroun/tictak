@@ -25,6 +25,8 @@ nlu:
     - cc
     - salut salut
     - aya golna salem
+    - salut
+    - [Ahlz](name)
 - intent: exist
   examples: |
     - Slm, bech nes2el 3al [krateb](produit) mta3 el makteb chnouma les modèles ili 3andkom
@@ -45,6 +47,9 @@ nlu:
     - 3andkom [des sac à dos](produit)[des sac à dos](produit) mta3 makteb ,
     - fama [des valises](produit)
     - fama [des valises](produit) ?
+    - fama des parapluis ?
+    - fama tickets collants ?
+    - fama mnechef wejh?
 - intent: fin
   examples: |
     - ok
@@ -395,6 +400,8 @@ nlu:
     - n7eb nechri meno
     - n7eb nechri w n3adi commande
     - n7eb nechrih
+    - N7b nchri
+    - je passe une commande
 - intent: nom_client
   examples: |
     - [Hajer chakroun](name)
@@ -1478,6 +1485,7 @@ nlu:
     - boutique
     - w 3andkom boutiques
     - 3andkomchi [des](produit) showroom
+    - Win local t3kom
 - intent: incomp
   examples:
   - text: |
@@ -1556,6 +1564,14 @@ nlu:
       ti hak bhim
   - text: |
       fok 3ad
+  - text: |
+      ti chbik ma tjewebch bhim ?
+  - text: |
+      lé 7altek mokrba bsara7a
+  - text: |
+      chbik tekwanssit lotf
+  - text: |
+      woh nes2el ena
 - intent: ask_id
   examples: |
     - Tictak
@@ -1565,6 +1581,7 @@ nlu:
     - w chkoun tictak
     - chkoun ya7ki m3aya
     - [3abd](name) ,
+    - Bhy chatbot enti
 - intent: lang
   examples: |
     - ta7ki 3arbi
@@ -1580,6 +1597,7 @@ nlu:
   examples: |
     - chfama dispo
     - chfama
+    - 7achti b [sac](produit)
 - intent: service_client
   examples: |
     - n7eb na7ki m3a service client (humain)!!
@@ -1588,3 +1606,4 @@ nlu:
   examples: |
     - [ysalmk](name)
     - w bik aychk
+    - Wa7dk w barra hhh
