@@ -45,6 +45,7 @@ nlu:
     - 3andkom [des sac à dos](produit)[des sac à dos](produit) mta3 makteb ,
     - fama [des valises](produit)
     - fama [des valises](produit) ?
+    - nal9a [des valises](produit) ?
 - intent: fin
   examples: |
     - ok
@@ -65,6 +66,9 @@ nlu:
     - sa77it
     - merci
     - aya sa77it
+    - ok bye
+    - behi barcha
+    - aya ya3tik el sa7a
 - intent: descrip
   examples: |
     - [les tentes](produit) dispo ?
@@ -145,6 +149,7 @@ nlu:
     - b9adech [les valises](produit) hedhom
     - chnawa les couleurs fi hedhi
     - chnouma les couleurs ili fama
+    - b9adech el survetement
 - intent: ref_produit
   examples: |
     - [OMB093G-Argent](sku)
@@ -1426,6 +1431,8 @@ nlu:
     - قداش حق التوصيل
     - twasslo maw ?
     - ya5i ta3mlo livraison
+    - w twasslou l dar wale
+    - ta3mlo livraison
 - intent: ask_retour
   examples: |
     - N7eb Nraj3 el produit
@@ -1445,6 +1452,8 @@ nlu:
     - لقيتها مكسرة
     - نحب نبدلها
     - ما تخدمش
+    - jetni el commande w el produit m9at3
+    - jetni mkassra
 - intent: code_cmd
   examples: |
     - [CMD 123456789](cmd)
@@ -1455,6 +1464,8 @@ nlu:
     - [CMD V71-609](cmd)
     - [CMD P2CKCD](cmd)
     - [CMD CAR2P](cmd)
+    - [cmd-ghjk](cmd)
+    - [cmd-dfghj](cmd)
 - intent: ask_general
   examples: |
     - Ech tbi3o ?
@@ -1467,6 +1478,9 @@ nlu:
     - ch3andkom entom
     - chnawa tbi3ou
     - chnawa tbi3o
+    - ch3andkom w ech tbi3o
+    - chnawa nechri
+    - chkounkom w ech tbi3o
 - intent: ask_local
   examples: |
     - وين بلاصتكم؟
@@ -1478,6 +1492,8 @@ nlu:
     - boutique
     - w 3andkom boutiques
     - 3andkomchi [des](produit) showroom
+    - w win local mte3kom 3andkom boutique ?
+    - 3andkom local?
 - intent: incomp
   examples:
   - text: |
@@ -1556,6 +1572,12 @@ nlu:
       ti hak bhim
   - text: |
       fok 3ad
+  - text: |
+      taw enti tefhem kolchay wala akeka w barra
+  - text: |
+      hak bhim ma tefhemch
+  - text: |
+      [fcdghsjk](name),
 - intent: ask_id
   examples: |
     - Tictak
@@ -1565,6 +1587,10 @@ nlu:
     - w chkoun tictak
     - chkoun ya7ki m3aya
     - [3abd](name) ,
+    - ye5i enti enssen ta7ki m3aya ?
+    - chkounou tictak
+    - [chesmk](name)
+    - chkounk tictak
 - intent: lang
   examples: |
     - ta7ki 3arbi
@@ -1576,6 +1602,9 @@ nlu:
     - ye5i ta7ki 3arbi ,
     - taw ta7ki bil 3arbi kahaw ?
     - ta7ki [français](name) ?
+    - ama hak ta7ki bil arbi
+    - hak ta7ki b tounsi
+    - ta7ki bil 3arbi ?
 - intent: dispo
   examples: |
     - chfama dispo
@@ -1588,3 +1617,4 @@ nlu:
   examples: |
     - [ysalmk](name)
     - w bik aychk
+    - aw behi sa77it
