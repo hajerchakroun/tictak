@@ -25,6 +25,7 @@ nlu:
     - cc
     - salut salut
     - aya golna salem
+    - 3asslama
 - intent: exist
   examples: |
     - Slm, bech nes2el 3al [krateb](produit) mta3 el makteb chnouma les modèles ili 3andkom
@@ -46,6 +47,8 @@ nlu:
     - fama [des valises](produit)
     - fama [des valises](produit) ?
     - nal9a [des valises](produit) ?
+    - 3andkom [valise](produit)
+    - [Articles](name)
 - intent: fin
   examples: |
     - ok
@@ -400,6 +403,8 @@ nlu:
     - n7eb nechri meno
     - n7eb nechri w n3adi commande
     - n7eb nechrih
+    - n7eb n!"addi commande
+    - N7eb nechri lo3ba
 - intent: nom_client
   examples: |
     - [Hajer chakroun](name)
@@ -1433,6 +1438,7 @@ nlu:
     - ya5i ta3mlo livraison
     - w twasslou l dar wale
     - ta3mlo livraison
+    - livraison kifech
 - intent: ask_retour
   examples: |
     - N7eb Nraj3 el produit
@@ -1454,6 +1460,9 @@ nlu:
     - ما تخدمش
     - jetni el commande w el produit m9at3
     - jetni mkassra
+    - jeni produit endommagé
+    - jetni el commande w produit m9atta3
+    - produit mkasser
 - intent: code_cmd
   examples: |
     - [CMD 123456789](cmd)
@@ -1481,6 +1490,7 @@ nlu:
     - ch3andkom w ech tbi3o
     - chnawa nechri
     - chkounkom w ech tbi3o
+    - Ech tbi3ou
 - intent: ask_local
   examples: |
     - وين بلاصتكم؟
@@ -1494,6 +1504,8 @@ nlu:
     - 3andkomchi [des](produit) showroom
     - w win local mte3kom 3andkom boutique ?
     - 3andkom local?
+    - win local
+    - win entom
 - intent: incomp
   examples:
   - text: |
@@ -1578,6 +1590,10 @@ nlu:
       hak bhim ma tefhemch
   - text: |
       [fcdghsjk](name),
+  - text: |
+      [123](tel)
+  - text: |
+      [Fashion](name)
 - intent: ask_id
   examples: |
     - Tictak
