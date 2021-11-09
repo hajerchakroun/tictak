@@ -31,6 +31,13 @@ action_endpoint:
 #    db: <wamia>
 #    username: <0>
 #    password: <None>
+tracker_store:
+    type: mongod
+    url: mongodb://localhost:27017
+    db: wamia
+    username:
+    password:
+    #auth_source: <database name associated with the user's credentials>
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
